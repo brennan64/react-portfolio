@@ -1,6 +1,6 @@
 # React Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e2198e69-9aca-4e93-bff3-c67cb294c381/deploy-status)](https://app.netlify.com/sites/brennan-portfolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e2198e69-9aca-4e93-bff3-c67cb294c381/deploy-status)](https://brennan-portfolio.netlify.app/)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
