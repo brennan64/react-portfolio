@@ -2,12 +2,16 @@
   display: flex;
   flex-direction: column;
   justify-content: row;
-}
-
-.resumePage a {
-  display: inline-flex;
-  width: 30%;
-  flex-direction: column;
+  a {
+    display: inline-flex;
+    width: 30%;
+    flex-direction: column;
+  }
+  h1 {
+    background-image: linear-gradient(black, rgb(98, 56, 56));
+    border-radius: 1em;
+    margin-top: 1%;
+  }
 }
 
 .resumeFooter {

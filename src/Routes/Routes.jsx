@@ -6,7 +6,6 @@ import { Resume } from '../Resume';
 import { Contact } from '../Contact/Contact';
 
 export const Routes = () => {
-  // fall back to homepage
   const routes = useRoutes([
     {
       path: '/',

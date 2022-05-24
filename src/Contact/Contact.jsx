@@ -4,6 +4,14 @@ export const Contact = () => (
   <div className="contact">
     <h1>Contact Page</h1>
     <div className="container inputs">
+      <ul className="contact-list">
+        <h2>My Info</h2>
+        <li>
+          <a href="mailto: dev.mail.bag@gmail.com">dev.mail.bag@gmail.com</a>
+        </li>
+        <li>612-250-4688</li>
+        <li>OR if youd rather, submit your info and I will get back to you as soon as possible.</li>
+      </ul>
       <form>
         <label>
           Name:

@@ -1,19 +1,25 @@
-.inputs {
-  display: flex;
-  justify-content: center;
-  align-items: column;
-  background-image: linear-gradient(black, rgb(98, 56, 56));
-  border-radius: 1em;
-  padding: 2%;
-}
-
 label {
   color: aliceblue;
   font-size: 33pt;
 }
 
-.inputs input {
-  margin: 2%;
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: column;
+  background-image: linear-gradient(black, rgb(98, 56, 56));
+  border-radius: 1em;
+  padding: 2%;
+
+  input {
+    margin: 2%;
+  }
+  .contact-list {
+    color: aliceblue;
+    text-align: center;
+    list-style: none;
+  }
 }
 
 .contact h1 {
