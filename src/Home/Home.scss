@@ -33,4 +33,11 @@ img {
 
 .nav {
   background-color: rgb(59, 58, 57);
+  // height: 4em;
+  a {
+    font-size: 24pt;
+  }
+  a:focus {
+    color: whitesmoke;
+  }
 }
