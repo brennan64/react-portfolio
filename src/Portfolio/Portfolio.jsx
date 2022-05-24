@@ -15,21 +15,33 @@ export const Portfolio = () => (
         <a href="https://brennan64.github.io/weather-app/">
           <img src={weatherApp} alt="weather application, api project" />
         </a>
-        <p>Weather App made with OpenWeather API.</p>
+        <p>
+          Weather App made with OpenWeather API.
+          <a href="https://github.com/brennan64/weather-app">Github Link</a>
+        </p>
         <a href="https://gist.github.com/brennan64/ac37b9b9cb8cfa2bdec7b6db371c0e5c">
           <img src={regExTutorial} alt="Reg Ex Tutorial, educational markdown page." />
         </a>
-        <p>RegEx tutorial markdown page, made to further my own understanding of regex.</p>
+        <p>
+          RegEx tutorial markdown page, made to further my own understanding of regex.{' '}
+          <a href="https://github.com/brennan64/regex-tutorial">Github Link</a>
+        </p>
       </div>
       <div className="col">
         <a href="https://fchang1720.github.io/Sporting-Event-Finder/">
           <img src={sportsFinder} alt="sports finder, a group project that uses multiple apis." />
         </a>
-        <p>Sports Event Finder, using OpenWeather and SeatGeek apis. </p>
+        <p>
+          Sports Event Finder, using OpenWeather and SeatGeek apis.{' '}
+          <a href="https://github.com/fchang1720/Sporting-Event-Finder">Github Link</a>
+        </p>
         <a href="https://brennan64.github.io/CodingQuiz/">
           <img src={codeQuiz} alt="Timed Javascript coding quiz" />
         </a>
-        <p>JavaScript timed coding quiz.</p>
+        <p>
+          JavaScript timed coding quiz.{' '}
+          <a href="https://github.com/brennan64/CodingQuiz">Github Link</a>
+        </p>
       </div>
       <div className="col">
         <a href="https://github.com/brennan64/team-profile-generator">
@@ -38,11 +50,17 @@ export const Portfolio = () => (
             alt="Command line application that creates a web template for a team profile."
           />
         </a>
-        <p>Team Profile Generator command line application built with inquirer.js.</p>
+        <p>
+          Team Profile Generator command line application built with inquirer.js.{' '}
+          <a href="https://github.com/brennan64/team-profile-generator">Github Link</a>
+        </p>
         <a href="https://frozen-bayou-00211.herokuapp.com/">
           <img src={techBlog} alt="tech blog application with login and commenting functionality" />
         </a>
-        <p>Tech Blog website made with express, handlebars, and a sql database.</p>
+        <p>
+          Tech Blog website made with express, handlebars, and a sql database.{' '}
+          <a href="https://github.com/brennan64/tech-blog">Github Link</a>
+        </p>
       </div>
     </div>
   </div>
