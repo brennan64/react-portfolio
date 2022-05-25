@@ -1,1 +1,23 @@
+.navbar {
+  background-color: rgb(59, 58, 57);
 
+  // height: 4em;
+  a {
+    font-size: 24pt;
+    color: aliceblue;
+    border-left: 3px solid salmon;
+    border-radius: 1em;
+  }
+  a:focus {
+    color: whitesmoke;
+    background-color: none;
+    opacity: 45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar a {
+    font-size: 14pt;
+    padding: 5px;
+  }
+}

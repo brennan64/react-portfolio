@@ -9,7 +9,7 @@ export const NavTabs = () => {
   };
 
   return (
-    <Nav className="justify-content-center">
+    <Nav className="navbar d-flex justify-content-end">
       <Nav.Item onClick={handleNavigate('/home')}>
         <Nav.Link>Home</Nav.Link>
       </Nav.Item>

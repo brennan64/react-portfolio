@@ -17,14 +17,14 @@ export const Portfolio = () => (
         </a>
         <p>
           Weather App made with OpenWeather API.
-          <a href="https://github.com/brennan64/weather-app">Github Link</a>
+          <a href="https://github.com/brennan64/weather-app">Github</a>
         </p>
         <a href="https://gist.github.com/brennan64/ac37b9b9cb8cfa2bdec7b6db371c0e5c">
           <img src={regExTutorial} alt="Reg Ex Tutorial, educational markdown page." />
         </a>
         <p>
           RegEx tutorial markdown page, made to further my own understanding of regex.{' '}
-          <a href="https://github.com/brennan64/regex-tutorial">Github Link</a>
+          <a href="https://github.com/brennan64/regex-tutorial">Github </a>
         </p>
       </div>
       <div className="col">
@@ -33,14 +33,14 @@ export const Portfolio = () => (
         </a>
         <p>
           Sports Event Finder, using OpenWeather and SeatGeek apis.{' '}
-          <a href="https://github.com/fchang1720/Sporting-Event-Finder">Github Link</a>
+          <a href="https://github.com/fchang1720/Sporting-Event-Finder">Github </a>
         </p>
         <a href="https://brennan64.github.io/CodingQuiz/">
           <img src={codeQuiz} alt="Timed Javascript coding quiz" />
         </a>
         <p>
           JavaScript timed coding quiz.{' '}
-          <a href="https://github.com/brennan64/CodingQuiz">Github Link</a>
+          <a href="https://github.com/brennan64/CodingQuiz">Github </a>
         </p>
       </div>
       <div className="col">
@@ -52,14 +52,14 @@ export const Portfolio = () => (
         </a>
         <p>
           Team Profile Generator command line application built with inquirer.js.{' '}
-          <a href="https://github.com/brennan64/team-profile-generator">Github Link</a>
+          <a href="https://github.com/brennan64/team-profile-generator">Github </a>
         </p>
         <a href="https://frozen-bayou-00211.herokuapp.com/">
           <img src={techBlog} alt="tech blog application with login and commenting functionality" />
         </a>
         <p>
           Tech Blog website made with express, handlebars, and a sql database.{' '}
-          <a href="https://github.com/brennan64/tech-blog">Github Link</a>
+          <a href="https://github.com/brennan64/tech-blog">Github </a>
         </p>
       </div>
     </div>
