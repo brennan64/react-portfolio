@@ -33,17 +33,3 @@ img {
   justify-content: space-between;
   padding: 2%;
 }
-
-.nav {
-  background-color: rgb(59, 58, 57);
-  // height: 4em;
-  a {
-    font-size: 24pt;
-    color: aliceblue;
-  }
-  a:focus {
-    color: whitesmoke;
-    background-color: none;
-    opacity: 45%;
-  }
-}
