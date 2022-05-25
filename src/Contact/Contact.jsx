@@ -2,10 +2,13 @@ import './Contact.scss';
 
 export const Contact = () => (
   <div className="contact">
-    <h1>Contact Page</h1>
+    <h1>
+      <span>Contact Page</span>
+    </h1>
     <div className="container inputs">
       <ul className="contact-list">
-        <h2>My Info</h2>
+        <h2> My Info</h2>
+        <li>Brennan M. Heley</li>
         <li>
           <a href="mailto: dev.mail.bag@gmail.com">dev.mail.bag@gmail.com</a>
         </li>

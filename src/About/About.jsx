@@ -5,7 +5,9 @@ import gordySmile from '../assets/gordy-smile.jpg';
 
 export const About = () => (
   <div className="about-text">
-    <h1>About Me</h1>
+    <h1>
+      <span>About Me</span>
+    </h1>
     <p>
       {`Hello World! My name is Brennan Heley. I am a full stack software developer specialising in
       front end and JS. I am currently seeking employment in the software field. I spend most of my

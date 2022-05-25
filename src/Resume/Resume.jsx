@@ -6,7 +6,10 @@ import './Resume.scss';
 export const Resume = () => (
   <div>
     <div className="resumePage">
-      <h1> Resume Page</h1>
+      <h1>
+        {' '}
+        <span>Resume Page</span>
+      </h1>
       <img src={resPic} alt="resume preview" className="resPic img-fluid "></img>
 
       <footer className="resumeFooter ">

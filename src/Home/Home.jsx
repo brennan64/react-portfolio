@@ -4,7 +4,9 @@ import './Home.scss';
 export const Home = () => (
   <div className=" home-frame">
     <header>
-      <h1>Brennan M. Heley</h1>
+      <h1>
+        <span>Brennan M. Heley</span>
+      </h1>
     </header>
     <img src={profilePic} alt="profile" />
     <footer className="mainFooter">

@@ -8,9 +8,19 @@
     flex-direction: column;
   }
   h1 {
+    color: aliceblue;
+    font-size: 22pt;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0.4%;
+  }
+  span {
     background-image: linear-gradient(black, rgb(98, 56, 56));
     border-radius: 1em;
-    margin-top: 1%;
+    padding: 1%;
+  }
+  .resPic {
+    margin: 5%;
   }
 }
 
@@ -20,4 +30,9 @@
   background-image: linear-gradient(black, rgb(98, 56, 56));
   border-radius: 1em;
   text-align: center;
+  font-size: 19pt;
+
+  li {
+    list-style: none;
+  }
 }
