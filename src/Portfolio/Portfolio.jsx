@@ -9,7 +9,9 @@ import './Portfolio.scss';
 
 export const Portfolio = () => (
   <div className="container-fluid project-grid ">
-    <h1>Portfolio, Click Images to view project</h1>
+    <h1>
+      <span>Portfolio, Click Images to view project</span>
+    </h1>
     <div className="row">
       <div className="col">
         <a href="https://brennan64.github.io/weather-app/">

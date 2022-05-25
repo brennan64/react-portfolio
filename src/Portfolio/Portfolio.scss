@@ -3,10 +3,13 @@
 
   h1 {
     font-size: 24pt;
-    background-image: linear-gradient(black, rgb(98, 56, 56));
-    border-radius: 1em;
+
     text-align: center;
     color: aliceblue;
+    span {
+      background-image: linear-gradient(black, rgb(98, 56, 56));
+      border-radius: 1em;
+    }
   }
   p {
     background-color: salmon;
