@@ -3,28 +3,49 @@
 
   h1 {
     font-size: 24pt;
+    
 
     text-align: center;
-    color: aliceblue;
+    
     span {
-      background-image: linear-gradient(black, rgb(98, 56, 56));
+      background-image: linear-gradient(aliceblue, rgb(98, 56, 56));
       border-radius: 1em;
+      padding: .5rem;
     }
   }
   p {
-    background-color: salmon;
+    background-image: linear-gradient(aliceblue, rgb(98, 56, 56));
     text-align: center;
     display: flex;
     justify-content: center;
+    border-radius: 1em;
+    font-size: 15pt;
+    padding: .5rem;
+    
   }
 
   img {
     margin: 10%;
     margin-left: 10%;
+    min-width: 25vw;
 
     &:hover {
       transform: scale(1.75);
     }
+  }
+
+  .resume {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(aliceblue, rgb(98, 56, 56));
+  
+    margin: 7vh;
+    font-size: 24pt;
+    border-radius: 1em;
+    padding: .5rem;
+
   }
 }
 

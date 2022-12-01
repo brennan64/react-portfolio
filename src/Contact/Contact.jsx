@@ -10,10 +10,10 @@ export const Contact = () => (
         <h2> My Info</h2>
         <li>Brennan M. Heley</li>
         <li>
-          <a href="mailto: dev.mail.bag@gmail.com">dev.mail.bag@gmail.com</a>
+          <a href="mailto: brennanheley@gmail.com">brennanheley@gmail.com</a>
         </li>
         <li>612-250-4688</li>
-        <li>OR if youd rather, submit your info and I will get back to you as soon as possible.</li>
+        <li>OR if youd rather, submit your info to my database and I will get back to you as soon as possible.</li>
       </ul>
       <form>
         <label>

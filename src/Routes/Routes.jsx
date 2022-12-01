@@ -2,7 +2,7 @@ import { Navigate, useRoutes } from 'react-router-dom';
 import { Home } from '../Home/Home';
 import { About } from '../About/About';
 import { Portfolio } from '../Portfolio';
-import { Resume } from '../Resume';
+
 import { Contact } from '../Contact/Contact';
 
 export const Routes = () => {
@@ -19,10 +19,7 @@ export const Routes = () => {
       path: '/portfolio',
       element: <Portfolio />,
     },
-    {
-      path: '/resume',
-      element: <Resume />,
-    },
+
     {
       path: '/contact',
       element: <Contact />,

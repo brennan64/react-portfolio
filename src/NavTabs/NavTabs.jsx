@@ -19,9 +19,9 @@ export const NavTabs = () => {
       <Nav.Item onClick={handleNavigate('/portfolio')}>
         <Nav.Link>Portfolio</Nav.Link>
       </Nav.Item>
-      <Nav.Item onClick={handleNavigate('/resume')}>
+      {/* <Nav.Item onClick={handleNavigate('/resume')}>
         <Nav.Link>Resume</Nav.Link>
-      </Nav.Item>
+      </Nav.Item> */}
       <Nav.Item onClick={handleNavigate('/contact')}>
         <Nav.Link>Contact</Nav.Link>
       </Nav.Item>

@@ -1,5 +1,5 @@
 label {
-  color: aliceblue;
+  
   font-size: 33pt;
 }
 
@@ -9,17 +9,31 @@ label {
   justify-content: center;
   align-self: center;
 
-  background-image: linear-gradient(black, rgb(98, 56, 56));
+  background-image: linear-gradient(aliceblue, rgb(98, 56, 56));
   border-radius: 1em;
   padding: 2%;
 
   input {
+    
+    border-radius: 1em;
     margin: 2%;
+    background-color: antiquewhite;
   }
   .contact-list {
-    color: aliceblue;
+    
     text-align: center;
     list-style: none;
+  }
+  li {
+    font-size: 15pt;
+  }
+
+  button {
+    width: 28vw;
+    border-radius: 1em;
+    margin: 0;
+    text-align: center;
+    
   }
 }
 
@@ -29,9 +43,9 @@ label {
   display: flex;
   justify-content: center;
 
-  color: aliceblue;
+  
   span {
-    background-color: black;
+    background-color: aliceblue;
     border-radius: 2em;
     padding: 1%;
   }
@@ -41,10 +55,12 @@ label {
   .inputs {
     margin: 5%;
     max-width: 85%;
-    justify-content: center;
+    justify-content: space-evenly;
+   
     input {
       font-size: 24pt;
       max-width: 77%;
+      
     }
     label {
       font-size: 24pt;

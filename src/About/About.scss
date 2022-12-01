@@ -5,9 +5,11 @@ body {
   display: flex;
   flex-direction: column;
   p {
-    text-indent: 3%;
+    align-self: center;
+    // text-indent: 3%;
     line-height: 2;
     padding: 2%;
+    font-size: 15pt;
   }
 
   h1 {
@@ -17,7 +19,7 @@ body {
     text-align: center;
     font-size: 24pt;
     span {
-      background-image: linear-gradient(black, rgb(98, 56, 56));
+      background-image: linear-gradient(rgb(32, 30, 30), rgb(98, 56, 56));
       border-radius: 1em;
     }
   }
